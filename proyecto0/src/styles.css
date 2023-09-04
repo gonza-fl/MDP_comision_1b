@@ -1,0 +1,35 @@
+.header {
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header nav a {
+  font-size: 1.5rem;
+  color: aliceblue;
+  text-decoration: none;
+  margin-right: .8em;
+  text-transform: uppercase;
+}
+
+.logo {
+  height: 20em;
+  will-change: filter;
+}
+
+.main {
+  display: flex;
+  background-color: #584f4f;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding-block: 1em;
+}
+
+
+.card {
+  padding: 2em;
+  background-color: #fff;
+}
