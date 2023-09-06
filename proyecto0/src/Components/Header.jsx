@@ -1,4 +1,4 @@
-import logo from './assets/logo-dark.jpg';
+import logo from '../assets/logo-dark.jpg';
 
 function Header() {
   return (

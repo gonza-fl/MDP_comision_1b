@@ -33,3 +33,32 @@
   padding: 2em;
   background-color: #fff;
 }
+
+main ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  color: aliceblue;
+  flex-wrap: wrap;
+  gap: .3em;
+}
+
+main ul li {
+  border: .1em solid black;
+  padding-block: .2em;
+  padding-inline: .5em;
+  background-color: rgb(123, 170, 212);
+  transition: 250ms;
+}
+
+main ul li:hover {
+  background-color: rgb(90, 139, 182);
+  cursor: default;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: .5em;
+}
